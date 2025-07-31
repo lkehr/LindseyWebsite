@@ -161,7 +161,7 @@ body {
 }
 
 .Cover {
-  max-width: 100%;
+  max-width: 10%;
   max-height: var(--image-max-width);
   margin-top: var(--image-margin);
 }
