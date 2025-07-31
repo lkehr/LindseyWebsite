@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- 
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!--
+      This is the page head - it contains info the browser uses
+      Like the title, which appears on the browser tab but not inside the page
+      Further down you'll see the content that displays in the page
+    -->
+  <title>Original Works of Writing of Lindsey Kehr</title>
+
+  <!-- The website stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- The website JavaScript file -->
+  <script src="script.js" defer></script>
+  <style>
+    body {
+      background-image: url("https://github.com/lkehr/LindseyWebsite/blob/main/SpookyMansion2.jpg?raw=true");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin: 0;
+      height: 100vh;
+    }
+
+    nav {
+      background-color: #333;
+      padding: 1em 2em;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 2em;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav li {
+      display: inline;
+    }
+
+    nav a {
+      color: white !important;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:visited {
+      color: white !important;
+    }
+
+    nav a:hover {
+      color: #9400d3 !important;
+    }
+  </style>
+</head>
+
+<body>
+  <!--
+      The body includes the content you see in the page
+      Each element is defined using tags, like this <div></div>
+      The attributes like class="wrapper" let us style elements in the CSS
+    -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About the Author</a></li>
+      <li><a href="newest.html">Newest Work</a></li>
+      <li><a href="all-work.html">Catalogue</a></li>
+      <li><a href="contact.html">Contact Me</a></li>
+    </ul>
+  </nav>
+  <div class="wrapper">
+    <div class="content" role="main">
+      <h1 class="title">The Original Works of Writing</h1>
+      <h1 class="title2">of Lindsey Kehr</h1>
+      <img src="https://cdn.glitch.global/dfc69478-157b-4087-b222-7ec4c51683fa/CoverPlaceholder.jpg?v=1748204703518"
+        class="Cover" alt="Editor illustration" title="Click the image!" />
+      <!--About Page Link-->
+      <h1>Welcome to My Website</h1>
+      <p>This is the homepage.</p>
+    </div>
+  </div>
+  <!-- The footer holds our remix button — you can keep or delete it ✂ -->
+  <footer class="footer">
+    <div class="links"></div>
+    <a class="btn--remix" target="_top" href="https://glitch.com/edit/#!/remix/glitch-hello-website">
+      <img src="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2FLogo_Color.svg?v=1618199565140" alt="" />
+      Remix on Glitch
+    </a>
+  </footer>
+</body>
+
+</html>
